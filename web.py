@@ -44,4 +44,4 @@ with st.sidebar:
         if st.button("Clear Completed"):
             st.session_state.completed.clear()
     else:
-        st.write("No completed tasks yet.")
+        st.write("No completed tasks yet!")
